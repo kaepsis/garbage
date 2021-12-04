@@ -5,9 +5,7 @@ FILENAMEWITHEXT="${TS3URL##*/}"
 FILENAME="${FILENAMEWITHEXT%-*}"
 
 echo "--------------------------------"
-echo "      [+] InvisionTech [+]      "
 echo " TeamSpeak3 Automatic Installer "
-echo "      [+] InvisionTech [+]      "
 echo "--------------------------------"
 
 echo "[+] Adding machine's host to /etc/hosts file"
