@@ -1,5 +1,5 @@
-DOT_IP=curl https://icanhazip.com
-DASH_IP=curl http://139.162.137.11/ipconv.php?ip=$DOT_ip
+DOT_IP=$(curl https://icanhazip.com)
+DASH_IP=$(curl http://139.162.137.11/ipconv.php?ip=$DOT_IP)
 sudo yum update -y
 sudo yum upgrade -y
 sudo cd /home
